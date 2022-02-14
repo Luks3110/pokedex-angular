@@ -13,7 +13,7 @@ export class PokeSearchComponent implements OnInit {
   }
 
   public search(value: string){
-    this.emmitSearch.emit(value)
+    this.emmitSearch.emit(value);
   }
 
 }
